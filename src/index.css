@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+
+body {
+  background-color: rgb(158, 240, 213);
+  margin: auto;
+  font-family: "Nunito";
+  /* width: 400px; */
+}
+
+.block{
+  /* transition:  3s ease-in-out ; */
+  /* transform: translateX(100%); */
+}
+.hidden{
+  /* transform: translateX(0); */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
